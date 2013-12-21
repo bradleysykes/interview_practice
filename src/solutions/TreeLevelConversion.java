@@ -29,7 +29,7 @@ public class TreeLevelConversion {
 			return master;
 		}
 		LinkedList<Integer> subList;
-		if(level=kk=master.size()){
+		if(level==master.size()){
 			subList = new LinkedList<Integer>();
 		}
 		else{
