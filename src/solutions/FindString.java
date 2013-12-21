@@ -13,6 +13,15 @@ public class FindString {
 		System.out.println(finder.findString("ball", data, 0));
 	}
 	
+	
+	/**
+	 * Questions: 
+	 * What happens if user searching for empty string?
+	 * @param String target
+	 * @param String[] data
+	 * @param int accumulated: Accumulated index from previous recursive calls.
+	 * @return
+	 */
 	public int findString(String target, String[] data, int accumulated){
 		if(data.length==0) return -1;
 		if(data.length==1){
