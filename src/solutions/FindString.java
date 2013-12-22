@@ -20,7 +20,7 @@ public class FindString {
 	 * @param String target
 	 * @param String[] data
 	 * @param int accumulated: Accumulated index from previous recursive calls.
-	 * @return
+	 * @return index location of target string in data.
 	 */
 	public int findString(String target, String[] data, int accumulated){
 		if(data.length==0) return -1;
